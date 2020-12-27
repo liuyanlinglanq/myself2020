@@ -14,10 +14,10 @@ public class StringIntern {
 
     public static void main(String[] args) throws InterruptedException {
 
-        //好未来 好未来 true    堆,堆引用 true
+        //好可爱 好可爱 true    堆,堆引用 true
         //java java false     java堆,不是第一次,常量池;false
-        //内容云 内容云 false   name4=内容云,表示常量池有一个"内容云"了;  name3在堆上,name3.intern有内容云了,在常量池 false;
-        //内容云 内容云 true    常量池=常量池 true;
+        //天天 天天 false   name4=天天,表示常量池有一个"天天"了;  name3在堆上,name3.intern有天天了,在常量池 false;
+        //天天 天天 true    常量池=常量池 true;
 //
 //        String name1 = new StringBuilder("好").append("未来").toString();
 //        System.out.println(name1 + " " + name1.intern() + " " + (name1.intern() == name1));
@@ -26,7 +26,7 @@ public class StringIntern {
 //        String name2 = new StringBuilder("ja").append("va").toString();
 //        System.out.println(name2 + " " + name2.intern() + " " + (name2.intern() == name2));
 //
-//        //name3 在堆上,name4 在常量池中,期待都是false,因为内容云已经在常量池中存在,intern会在加一个
+//        //name3 在堆上,name4 在常量池中,期待都是false,因为天天已经在常量池中存在,intern会在加一个
 //        String name3 = new StringBuilder("内").append("容云").toString();
 //        String name4 = "内" + "容云";
 //        System.out.println(name3 + " " + name3.intern() + " " + (name3.intern() == name3));
