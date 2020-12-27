@@ -16,9 +16,14 @@
         <!--<withJansi>true</withJansi>-->
         <encoder>
             <!-- %c.%M\(%F:%L\), %caller{1}%msg%n -->
-            <pattern>[%highlight(%-5level)][%d{HH:mm:ss.SSS}] [%thread]%n%C.%M\(%F:%L\)%n%msg%n</pattern>
+            <pattern>%msg%n</pattern>
             <!--<charset>UTF-8</charset>-->
         </encoder>
+<!--        <encoder>-->
+<!--            &lt;!&ndash; %c.%M\(%F:%L\), %caller{1}%msg%n &ndash;&gt;-->
+<!--            <pattern>[%highlight(%-5level)][%d{HH:mm:ss.SSS}] [%thread]%n%C.%M\(%F:%L\)%n%msg%n</pattern>-->
+<!--            &lt;!&ndash;<charset>UTF-8</charset>&ndash;&gt;-->
+<!--        </encoder>-->
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
