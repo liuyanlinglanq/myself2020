@@ -28,6 +28,9 @@ public class TestAtomicAdd10K {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(calc());
+        for (int i = 0; i < 300; i++) {
+            System.out.println(calc());
+        }
+
     }
 }

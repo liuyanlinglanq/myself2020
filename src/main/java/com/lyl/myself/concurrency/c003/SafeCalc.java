@@ -1,5 +1,8 @@
 package com.lyl.myself.concurrency.c003;
 
+/**
+ * 安全的计算
+ */
 public class SafeCalc {
     long value = 0L;
 

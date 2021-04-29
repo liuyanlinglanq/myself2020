@@ -1,5 +1,8 @@
 package com.lyl.myself.concurrency.c002;
 
+/**
+ * final 字段示例
+ */
 public class FinalFieldExample {
 
     final int x;
