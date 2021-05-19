@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/project_test?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: azx159jmn*A
+
+# Logger Config
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
+    com.lyl.db: debug
+#spring:
+#  datasource:
+#    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+#    url: jdbc:p6spy:h2:mem:test
+
+server:
+  port: 8091
+  servlet:
+    context-path: /myself
