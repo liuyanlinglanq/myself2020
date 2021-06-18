@@ -1,0 +1,14 @@
+# Nacos spring boot：https://help.aliyun.com/document_detail/94592.html?spm=a2c4g.11186623.6.576.5af75876zf0hNg
+# 支持yaml格式：https://github.com/nacos-group/nacos-spring-boot-project/wiki/spring-boot-0.2.2-%E4%BB%A5%E5%8F%8A-0.1.2%E7%89%88%E6%9C%AC%E6%96%B0%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C?spm=a2c4g.11186623.2.14.7ce518b9tifkTG#%E6%94%AF%E6%8C%81%E5%A4%9A%E7%A7%8D%E9%85%8D%E7%BD%AE%E6%A0%BC%E5%BC%8Fpropertiesyamljsonxml
+# 支持yaml格式：https://github.com/nacos-group/nacos-spring-project/wiki/Nacos-Spring-Project-0.3.1-%E6%96%B0%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C#%E5%A4%9A%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%94%AF%E6%8C%81
+# 支持yaml版本：0.2.2（0.2.1不支持）
+nacos:
+  config:
+    endpoint: acm.aliyun.com
+    namespace: 869488fd-b0a6-4a55-b4a3-65f1082c2920
+    access-key: LTAI4GJqNckX5N6eHqFuUCec
+    secret-key: r5xRaq1ibzK07qYInCordpLNwc1YCW
+
+    type: yaml
+
+
